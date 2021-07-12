@@ -26,7 +26,7 @@ const RetailSales = () => {
 
 	return (
 		<div className="body">
-			{stateAPIStatus && (
+			{stateAPIStatus === 'success' && (
 				<>
 					<DescriptionPanel />
 					<div className="graph-panel">
